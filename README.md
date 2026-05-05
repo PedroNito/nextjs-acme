@@ -7,32 +7,18 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 ### App router
 
-chapter 1 - Getting Started
-
-chapter 2 - CSS Styling
-
-chapter 3 - Optimizing Fonts and Images
-
-chapter 4 - Creating Layouts and Pages
-
-chapter 5 - Navigating Between Pages
-
-chapter 6 - Setting Up Your Database
-
-chapter 7 - Fetching Data
-
-chapter 8 - Static and Dynamic Rendering
-
-chapter 9 - Streaming
-
-chapter 10 - Adding Search and Pagination
-
-chapter 11 - Mutating Data
-
-chapter 12 - Handling Errors
-
-chapter 13 - Improving Accessibility
-
-chapter 14 - Adding Authentication
-
-chapter 15 - Adding Metadata
+- chapter 1 - Getting Started
+- chapter 2 - CSS Styling
+- chapter 3 - Optimizing Fonts and Images
+- chapter 4 - Creating Layouts and Pages
+- chapter 5 - Navigating Between Pages
+- chapter 6 - Setting Up Your Database
+- chapter 7 - Fetching Data
+- chapter 8 - Static and Dynamic Rendering
+- chapter 9 - Streaming
+- chapter 10 - Adding Search and Pagination
+- chapter 11 - Mutating Data
+- chapter 12 - Handling Errors
+- chapter 13 - Improving Accessibility
+- chapter 14 - Adding Authentication
+- chapter 15 - Adding Metadata
