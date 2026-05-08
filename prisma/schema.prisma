@@ -12,21 +12,21 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model users {
+model user {
   id       String @id @default(uuid())
   name     String
   email    String @unique
   password String
 }
 
-model customers {
+model customer {
   id        String @id @default(uuid())
   name      String
   email     String @unique
   image_url String?
 }
 
-model invoices {
+model invoice {
   id          String   @id @default(uuid())
   customer_id String
   amount      Int

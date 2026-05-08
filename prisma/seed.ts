@@ -4,7 +4,7 @@ const prisma = new PrismaClient();
 
 async function main() {
   // USERS
-  await prisma.users.createMany({
+  await prisma.user.createMany({
     data: [
       {
         id: '410544b2-4001-4271-9855-fec4b6a6442a',
@@ -16,7 +16,7 @@ async function main() {
   });
 
   // CUSTOMERS
-  await prisma.customers.createMany({
+  await prisma.customer.createMany({
     data: [
       {
         id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
@@ -58,7 +58,7 @@ async function main() {
   });
 
   // INVOICES
-  await prisma.invoices.createMany({
+  await prisma.invoice.createMany({
     data: [
       { customer_id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa', amount: 15795, status: 'pending', date: new Date('2022-12-06') },
       { customer_id: '3958dc9e-712f-4377-85e9-fec4b6a6442a', amount: 20348, status: 'pending', date: new Date('2022-11-14') },
